@@ -1,5 +1,4 @@
-// #home-container
-// #guest-container
+/* Home */
 
 let home = 0;
 
@@ -32,7 +31,7 @@ onePointBtn.addEventListener("click", addOneHome);
 twoPointsBtn.addEventListener("click", addTwoHome);
 threePointsBtn.addEventListener("click", addThreeHome);
 
-// Guest
+/* Guest */
 
 let guest = 0;
 
@@ -65,7 +64,8 @@ onePointBtnG.addEventListener("click", addOneGuest);
 twoPointsBtnG.addEventListener("click", addTwoGuest);
 threePointsBtnG.addEventListener("click", addThreeGuest);
 
-// Reset both scores
+/* Reset both scores */
+
 let resetBtn = document.getElementById("reset");
 
 function reset() {
