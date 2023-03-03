@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  max-width: 100%;
+  height: 100vh;
+  background-color: #1f2937;
+  color: #f3f4f6;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+h3 {
+  font-family: "Verdana";
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.home-score-container,
+.guest-score-container {
+  background-color: #111827;
+  width: 155px;
+  height: 120px;
+  font-size: 90px;
+  font-weight: 400;
+  color: #fe6e00;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-score-container,
+.guest-score-container,
+button {
+  font-family: "Cursed Timer ULiL";
+}
+
+#buttons-container {
+  padding-top: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  color: #f3f4f6;
+  cursor: pointer;
+}
+
+button:not(#reset) {
+  background: transparent;
+  border: 2px solid #f3f4f6;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  width: 45px;
+  height: 45px;
+}
+
+#reset-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+#reset {
+  background: transparent;
+  border: 2px solid #fe6e00;
+  padding: 10px 16px;
+}
+
+@media screen and (max-width: 390px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
